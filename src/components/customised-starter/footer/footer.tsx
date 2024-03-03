@@ -18,6 +18,11 @@ return (
     </a>
   </div>
   <div class="container">
+    <a href="/jeffrle/" class={styles.anchor}>
+      <sup>
+        Jeffrle demo by Me
+      </sup>
+    </a>
     <a href="/demo/flower/" class={styles.anchor}>
       <sup>
         Flower demo by Qwik

@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import type { DocumentHead } from "@builder.io/qwik-city";
 import { Keyboard } from "~/components/jeffrle/Keyboard";
 
 export default component$(() => {
@@ -15,3 +16,13 @@ export default component$(() => {
     </>
   )
 })
+
+export const head: DocumentHead = {
+  title: "Jeffrle - wordle but different",
+  meta: [
+    {
+      name: "description",
+      content: "A game based on Wordle",
+    },
+  ],
+};
